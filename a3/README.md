@@ -1,9 +1,9 @@
-# Project Title
-Project Slogan
+# Assignment 2 Spiderman Resume
+Spiderman is the greatest rock climber in the world.
 ## Purpose
-The purpose of this webapp is to explore the use of a node.js, express.js, mysql, heroku a custom ORM and handlebars to create a functional app that uses CRUD, routing and api's
+The purpose of this webpage is to provide a resume for Spiderman who is in search of a job in a rockclimbing gym.
 ## Getting Started/Instructions
-To view the site live go to: //site-link
+To view the site live go to: file:///Users/cristianhernandez/Desktop/Code/CIM111/a2/index.html
 To get started,
 1. Fork, download or clone the repository.
 ## Further Help

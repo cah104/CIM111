@@ -1,0 +1,79 @@
+h2{
+	font-size: 24px;
+	font-family: 'Fredericka the Great';
+	margin: 15px;
+}
+
+#myname{
+	font-size: 30px;
+	font-family: none;
+}
+
+p{
+	margin-left: 20px;
+		
+}
+#biography{
+	font-family: 'Abel';
+}
+.jobseek{
+	margin-bottom: 20px;
+	color: red;
+	font-size: 20px;
+}
+table{
+	border-collapse: collapse;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	
+
+}
+
+.tablehead{
+	font-style: italic; ;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+a{
+	color:blue;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+a:hover{
+	color: red;
+
+}
+
+.dailybugle:hover{
+	border: 1px solid black;
+}
+.esu:hover{
+	border: 1px solid black;
+}
+
+span{
+	color: black;
+	margin: 20px;
+}
+
+ul{
+  list-style-type: disc; 
+   list-style-position: inside; 
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+
+img{
+	width: 700px;
+	margin: 20px;
+}
+address{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+
