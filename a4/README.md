@@ -1,7 +1,7 @@
-# Project Title
-Project Slogan
+# City of North Miami Webpage
+North Miami Rocks!
 ## Purpose
-The purpose of this webapp is to explore the use of a node.js, express.js, mysql, heroku a custom ORM and handlebars to create a functional app that uses CRUD, routing and api's
+The purpose of this webpage is to promote the City of North Miami
 ## Getting Started/Instructions
 To view the site live go to: //site-link
 To get started,
