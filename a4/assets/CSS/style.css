@@ -1,0 +1,180 @@
+
+html,body{
+      height: 100%;
+    }
+ 
+ h2{
+ 	font-size: 20px;
+ }
+.container{
+	display: grid;
+	grid-gap: 30px;
+	
+
+}
+
+.topSection{
+	
+	height: auto;
+	width: auto;
+	display: grid;
+	grid-gap: 20px;
+	
+
+}
+
+.pageLogo{
+	background-image: url("../images/logo.jpg");
+	background-size: contain;
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	}
+.motto{
+	margin: auto;
+	font-size: 25px;
+	
+	
+}	
+
+.menu{
+
+	background-color: #005595;
+	display: grid;
+	grid-template-columns: auto;
+	width: auto;
+	margin: auto;
+}
+
+.menu-list{
+
+	font-size: 40px;
+	
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+}
+
+.information{
+	background-color: #9ca224;
+	height: 200px;
+	display: grid;
+	grid-gap: 20px;	
+}
+
+.cityHall{
+	
+	background-image: url("../images/cityHall.jpg");
+	background-size: contain;
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.funFacts{
+	background-color: #005595;
+	width: auto;
+	text-align: center;
+}
+.mobileText{
+	text-align: center;
+	color: white;
+}
+
+.oletaImage{
+	background-image: url("../images/oletaAerialView.jpg");
+	background-size: contain;
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.oletaContainer{
+	display: grid;
+	background-color: #9ca224
+}
+
+.gallery{
+
+		display: grid;
+		grid-gap: 20px;
+		
+		  justify-content: center;	
+		  align-items: center;
+		  align-content: center;
+		  
+		  margin-bottom: 100px;
+	}
+
+.nomiImage{
+	background-image: url("../images/NOMI.jpg");
+	background-size: contain;
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nomiContainer{
+	display: grid;
+	background-color: #9ca224
+}
+
+.nomiMap{
+	background-image: url("../images/nomiMap.jpg");
+	background-size: contain;
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+footer{
+	background-color: #005595;
+	color: white;
+	text-align: center;
+	font-style: italic;
+
+}
+
+	/* tablet sized devices */
+	
+
+	@media only screen and (min-width: 500px) {
+		
+		.topSection{
+			grid-template-columns: 306px auto;
+			margin: 20px;
+			background-color: #005595;
+
+		}
+		.menu-list{
+			display: block;
+
+		}
+
+		.gallery{
+			grid-template-columns: auto auto;
+		}
+	}
+
+	/* MEDIA QUERIES desktop sized devices */ 
+	@media only screen and (min-width: 768px) {
+
+		.information{
+			
+			grid-template-columns:  259px auto;
+
+		}
+		.gallery{
+			grid-template-columns: auto auto auto; 
+	}
+	.nomiContainer{
+		grid-template-columns: 343px auto;
+	}
+	.oletaContainer{
+		grid-template-columns: 248px auto;
+	}
+}
