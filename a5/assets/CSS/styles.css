@@ -1,0 +1,13 @@
+h1, h2, li{
+	margin: auto;
+	width: 50%;
+}
+
+#chickpeas{
+	background-image: url("../images/chickpeas.jpg");
+	background-size: contain;
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
